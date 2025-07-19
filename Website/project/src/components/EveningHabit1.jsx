@@ -1,7 +1,8 @@
 function EveningHabit1() {
     return(
         <div>
-            <h1>TEST TEST TEST EH1</h1>
+            <h1>15 minute meditation</h1>
+            <p>NOTE The ability to calm the mind builds strength, and it also helps you get ready for a good night of sleep 🛌</p>
         </div>
     )
 }

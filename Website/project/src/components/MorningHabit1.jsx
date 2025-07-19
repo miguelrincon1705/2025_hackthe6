@@ -1,7 +1,8 @@
 function MorningHabit1() {
     return(
         <div>
-            <h1>TEST TEST TEST MH1</h1>
+            <h1>Morning walk/run</h1>
+            <p>NOTE we recommend to go in nature</p>
         </div>
     )
 }

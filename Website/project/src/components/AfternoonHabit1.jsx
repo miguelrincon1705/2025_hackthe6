@@ -1,7 +1,8 @@
 function AfternoonHabit1() {
     return(
         <div>
-            <h1>TEST TEST TEST AH1</h1>
+            <h1>Eat a balanced lunch</h1>
+            <p>NOTE Good nutrition is the source of lasting health</p>        
         </div>
     )
 }
