@@ -1,0 +1,19 @@
+.bubble {
+  padding: 1rem;
+  border-radius: 2rem;
+  word-wrap: break-word;
+  width: 50rem;
+  color: white;
+}
+
+.user {
+  background-color: skyblue;
+  align-self: flex-end;
+  text-align: start;
+}
+
+.frog {
+  background-color: green;
+  align-self: flex-start;
+  text-align: start;
+}

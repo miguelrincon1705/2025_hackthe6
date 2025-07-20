@@ -62,14 +62,14 @@ function App() {
   const closeModalOne = () => 
   {
     setIsModalOneOpen(false);
-    setButtonLabelA(randomContentMorning.buttonName);
+    setButtonLabelA(`✅${randomContentMorning.buttonName}`);
     setIsButtonADisabled(true);
   }
   const openModalTwo = () => setIsModalTwoOpen(true);
   const closeModalTwo = () => 
     {
       setIsModalTwoOpen(false);
-      setButtonLabelB(randomContentAfternoon.buttonName);
+      setButtonLabelB(`✅${randomContentAfternoon.buttonName}`);
       setIsButtonBDisabled(true);
     }
 
@@ -77,7 +77,7 @@ function App() {
   const closeModalThree = () => 
   {
     setIsModalThreeOpen(false);
-    setButtonLabelC(randomContentEvening.buttonName);
+    setButtonLabelC(`✅${randomContentEvening.buttonName}`);
     setIsButtonCDisabled(true);
   }
 
@@ -88,7 +88,7 @@ function App() {
 
   return (
     <>
-      <h1>Unamed Mental Health App App</h1>
+      <h1>CriCri</h1>
     <div style={{display: 'flex', flexDirection: 'column', gap: '15vh'}}>
       <button onClick={openModalOne} disabled={isButtonADisabled} style={{cursor: isButtonCDisabled ? 'not-allowed' : 'pointer', opacity: isButtonADisabled ? 0.8 : 1,}}>{buttonLabelA}</button>
       <button onClick={openModalTwo} disabled={isButtonBDisabled} style={{cursor: isButtonCDisabled ? 'not-allowed' : 'pointer', opacity: isButtonBDisabled ? 0.8 : 1,}}>{buttonLabelB}</button>
